@@ -35,6 +35,9 @@ if __name__ == '__main__':
     # just use it.
     app_logger.info("info message")
     app_logger.debug("debug message")
+    app_logger.warning("warning message")
+    app_logger.error("error message")
+    app_logger.critical("critical message")
 ```
 
 if you want to make your own python-logger. 

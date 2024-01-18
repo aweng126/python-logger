@@ -9,3 +9,6 @@ from logger import app_logger
 if __name__ == '__main__':
     app_logger.info("info message")
     app_logger.debug("debug message")
+    app_logger.warning("warning message")
+    app_logger.error("error message")
+    app_logger.critical("critical message")
